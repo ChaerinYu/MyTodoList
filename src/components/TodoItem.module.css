@@ -1,0 +1,25 @@
+.todoItemFullWidth {
+  height: 2.5rem;
+  width: 100%;
+  display: flex;
+  /* margin: 1rem 0rem; */
+}
+
+/* .todoItemFullWidth b {
+  cursor: pointer;
+} */
+
+.todoItemFullWidth span {
+  width: 75%;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.icons {
+  cursor: pointer;
+  align-items: center;
+  /* 아이콘의 크기는 폰트 사이즈로 조정 가능 */
+  font-size: 1.4rem;
+  padding: 0.25rem 0rem 0rem 0.25rem;
+  color: #adb5bd;
+}

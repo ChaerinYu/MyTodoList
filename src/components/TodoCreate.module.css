@@ -1,0 +1,33 @@
+.inputDiv {
+  width: 100%;
+  float: right;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+}
+
+.inputTodo {
+  width: 80%;
+  font-size: 1.5rem;
+  border: none;
+  /* border: 1px solid #6741d9;
+  border-width: 0 0 0 3px; */
+  background: transparent;
+  display: table-cell;
+  margin-left: 10px;
+}
+
+.inputBtn {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  display: table-cell;
+  cursor: pointer;
+  background: #6741d9;
+  color: white;
+  border: 1px solid #6741d9;
+  border-radius: 10%;
+}
+
+.leftTodo {
+  border: 2px solid #6741d9;
+}

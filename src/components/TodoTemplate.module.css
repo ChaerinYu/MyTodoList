@@ -1,0 +1,38 @@
+.templTable {
+  position: absolute;
+  top: 35%;
+  left: 43.5%;
+  width: 500px;
+  height: 500px;
+  margin: -200px -200px -100px -150px;
+  overflow-y: auto;
+}
+
+.templTable tbody > tr > td > p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.copyRight {
+  margin: 0px;
+  padding: 0px;
+  text-align: right;
+  font-size: 0.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.templList {
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  width: 495px;
+  height: 500px;
+  background: #f3f0ff;
+  border-radius: 3%;
+  overflow-y: auto;
+}
+
+.templLine {
+  border: 2px solid #d0bfff;
+}

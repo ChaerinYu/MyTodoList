@@ -1,0 +1,13 @@
+.headerTable {
+  width: 500px;
+  color: #f1f3f5;
+  text-shadow: 2px 2px 2px #7950f2;
+}
+
+.headerRow {
+  width: 500px;
+}
+
+.headerContent {
+  width: 90%;
+}
