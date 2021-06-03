@@ -33,6 +33,23 @@
   overflow-y: auto;
 }
 
-.templLine {
+/* .templLine {
   border: 2px solid #d0bfff;
+} */
+
+.purple {
+  /* color: #d0bfff; */
+  border: 2px solid #d0bfff;
+}
+
+.blue {
+  border: 2px solid #a5d8ff;
+}
+
+.pink {
+  border: 2px solid #fcc2d7;
+}
+
+.gray {
+  border: 2px solid #868e96;
 }

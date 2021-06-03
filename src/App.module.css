@@ -4,6 +4,39 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #e5dbff;
+  /* background: #e5dbff; */
+  /* background: #99e9f2; */
   background-size: cover;
+}
+
+.appHeader {
+  display: relative;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.appMenu {
+  position: absolute;
+  left: 0px;
+}
+
+.appTheme {
+  position: absolute;
+  right: 0px;
+}
+
+.purple {
+  background: #e5dbff;
+}
+
+.blue {
+  background: #a5d8ff;
+}
+
+.pink {
+  background: #ffdeeb;
+}
+
+.gray {
+  background: #dee2e6;
 }

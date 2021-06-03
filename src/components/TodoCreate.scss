@@ -1,0 +1,57 @@
+$purple: #6741d9;
+$blue: #228be6;
+$gray: #495057;
+$pink: #f06595;
+
+@mixin theme-color($color) {
+  background-color: $color;
+  border: 1px solid $color;
+}
+@mixin theme-left-color($color) {
+  border: 2px solid $color;
+}
+
+.inputBtn {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  display: table-cell;
+  cursor: pointer;
+  /* background: #6741d9; */
+  color: white;
+  /* border: 1px solid #6741d9; */
+  border-radius: 10%;
+
+  &.purple {
+    @include theme-color($purple);
+  }
+
+  &.blue {
+    @include theme-color($blue);
+  }
+
+  &.gray {
+    @include theme-color($gray);
+  }
+
+  &.pink {
+    @include theme-color($pink);
+  }
+}
+
+.leftTodo {
+  &.purple {
+    @include theme-left-color($purple);
+  }
+
+  &.blue {
+    @include theme-left-color($blue);
+  }
+
+  &.gray {
+    @include theme-left-color($gray);
+  }
+
+  &.pink {
+    @include theme-left-color($pink);
+  }
+}

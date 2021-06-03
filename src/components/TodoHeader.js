@@ -1,9 +1,11 @@
 import React from 'react';
 import styles from './TodoHeader.module.css';
+import './TodoHeader.scss';
+import classNames from 'classnames';
 
-function TodoHeader() {
+function TodoHeader({ color }) {
     return (
-        <table className={styles.headerTable}>
+        <table className={classNames('headerTable', color)}>
             <tbody>
                 <tr className={styles.headerRow}>
                     <td><h1>[</h1></td>

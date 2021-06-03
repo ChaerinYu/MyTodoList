@@ -1,12 +1,19 @@
 // todo template
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useContext } from 'react';
 import TodoCreate from './TodoCreate';
 import TodoList from './TodoList';
 import TodoHeader from './TodoHeader';
 import styles from './TodoTemplate.module.css';
+import { ThemeColor } from './TodoTheme';
+import classNames from 'classnames/bind';
 
-function TodoTemplate() {
+const cx = classNames.bind(styles);
 
+function TodoTemplate({color}) {
+    const themeColor = useContext(ThemeColor);
+
+    console.log('TodoTemplate: '+themeColor);
+    console.log('TodoTemplate color: '+color);
     const [newTodo, setNewTodo] = useState('');
 
     const [todos, setTodos] = useState([
@@ -74,19 +81,22 @@ function TodoTemplate() {
             <thead>
                 <tr>
                     <th>
-                        <TodoHeader></TodoHeader>
+                        <TodoHeader color={color}></TodoHeader>
                     </th>
                 </tr>
                 <tr>
                     <th>
-                        <TodoCreate newTodo={newTodo} onCreate={onCreate} onChange={onChange}></TodoCreate>
+                        <TodoCreate newTodo={newTodo} onCreate={onCreate} onChange={onChange} color={color}></TodoCreate>
                     </th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>
-                        <p className={styles.templLine}></p>
+                        {/* <p className={styles.templLine}></p> */}
+                        <p className={cx('templLine', {
+                            [color]: true
+                        })}></p>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +108,10 @@ function TodoTemplate() {
                 </tr>
                 <tr>
                     <td>
-                        <p className={styles.templLine}></p>
+                        {/* <p className={classNames(styles.templLine, styles[themeColor])}></p> */}
+                        <p className={cx('templLine', {
+                            [color]: true
+                        })}></p>
                     </td>
                 </tr>
                 <tr>
