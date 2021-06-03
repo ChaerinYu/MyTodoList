@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
 import classNames from 'classnames/bind';
-// import { IoIosClose } from "react-icons/io";
-// import { HiEmojiHappy } from "react-icons/hi";
 import { HiMenu } from "react-icons/hi";
 import TodoTemplate from './components/TodoTemplate';
 import TodoThemeList from './components/TodoThemeList';
@@ -26,8 +24,6 @@ function App() {
         <TodoThemeList className={styles.appTheme} onChangeTheme={onChangeTheme} color={color}/>
       </div>
       <TodoTemplate color={color} />
-      {/* <IoIosClose size="24" color="#df6888"/>
-      <HiEmojiHappy size="24" color="#df6888"/> */}
     </div>
   );
 }
