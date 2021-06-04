@@ -20,7 +20,7 @@ function App() {
       [color]: true
     })}>
       <div className={styles.appHeader} color={color}>
-        <HiMenu size="35" className={styles.appMenu} />
+        {/* <HiMenu size="35" className={styles.appMenu} /> */}
         <TodoThemeList className={styles.appTheme} onChangeTheme={onChangeTheme} color={color}/>
       </div>
       <TodoTemplate color={color} />
