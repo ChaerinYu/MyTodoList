@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './App.module.css';
 import classNames from 'classnames/bind';
-import { HiMenu } from "react-icons/hi";
+// import { HiMenu } from "react-icons/hi";
 import TodoTemplate from './components/TodoTemplate';
 import TodoThemeList from './components/TodoThemeList';
 
