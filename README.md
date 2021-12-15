@@ -1,8 +1,13 @@
-# My todo list
+# My todo list 📝
 
-ToDoList Program using React.js
+## 😎 Introduce
 
-## Screen
+ToDoList Program using React.js  
+Try it out 🤗
+
+Click here [📝](https://chaerinyu.github.io/my-todo-list/)
+
+## 😎 Preview
 
 Four themes are available in this program.
 

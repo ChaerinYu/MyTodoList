@@ -20,7 +20,7 @@ function TodoTemplate({ color }) {
     {
       id: 1,
       content: "React 공부하기",
-      completed: false,
+      completed: true,
       star: false,
     },
     {
