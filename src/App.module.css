@@ -1,0 +1,44 @@
+.appBody {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+}
+
+.appHeader {
+  display: relative;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.appMenu {
+  position: absolute;
+  left: 0px;
+}
+
+.appTheme {
+  position: absolute;
+  right: 0px;
+}
+
+.purple {
+  background: #e5dbff;
+}
+
+.blue {
+  background: #a5d8ff;
+}
+
+.pink {
+  background: #ffdeeb;
+}
+
+.gray {
+  background: #dee2e6;
+}

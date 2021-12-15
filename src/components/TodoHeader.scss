@@ -1,0 +1,28 @@
+$purple: #6741d9;
+$blue: #228be6;
+$gray: #495057;
+$pink: #f06595;
+
+@mixin theme-color($color) {
+  text-shadow: 2px 2px 2px $color;
+}
+.headerTable {
+  width: 500px;
+  color: #f1f3f5;
+
+  &.purple {
+    @include theme-color($purple);
+  }
+
+  &.blue {
+    @include theme-color($blue);
+  }
+
+  &.gray {
+    @include theme-color($gray);
+  }
+
+  &.pink {
+    @include theme-color($pink);
+  }
+}

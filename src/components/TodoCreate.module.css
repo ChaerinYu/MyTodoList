@@ -1,0 +1,51 @@
+.inputDiv {
+  width: 100%;
+  float: right;
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+}
+
+.inputTodo {
+  width: 80%;
+  font-size: 1.5rem;
+  border: none;
+  background: transparent;
+  display: table-cell;
+  margin-left: 10px;
+}
+/* 
+.inputBtn {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  display: table-cell;
+  cursor: pointer;
+  background: #6741d9;
+  color: white;
+  border: 1px solid #6741d9;
+  border-radius: 10%;
+}
+
+.leftTodo {
+  border: 2px solid #6741d9;
+}
+
+.purple {
+  background: #6741d9;
+  border: 2px solid #6741d9;
+}
+
+.blue {
+  background: #4263eb;
+  border: 2px solid #4263eb;
+}
+
+.pink {
+  background: #e64980;
+  border: 2px solid #e64980;
+}
+
+.gray {
+  background: #495057;
+  border: 2px solid #495057;
+} */

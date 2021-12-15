@@ -1,0 +1,42 @@
+$purple: #6741d9;
+$blue: #228be6;
+$gray: #495057;
+$pink: #f06595;
+
+@mixin theme-color($color) {
+  color: $color;
+  &:hover {
+    color: lighten($color, 10%);
+    // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    // text-shadow: 1px 1px 5px black;
+  }
+  &:active {
+    color: darken($color, 10%);
+    // text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+}
+
+.Theme {
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 5px;
+  vertical-align: middle;
+  line-height: 150px;
+  cursor: pointer;
+
+  &.purple {
+    @include theme-color($purple);
+  }
+
+  &.blue {
+    @include theme-color($blue);
+  }
+
+  &.gray {
+    @include theme-color($gray);
+  }
+
+  &.pink {
+    @include theme-color($pink);
+  }
+}
